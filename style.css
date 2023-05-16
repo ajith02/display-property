@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Comme&family=Montserrat&family=Nunito+Sans:wght@300&family=Open+Sans&family=Roboto:wght@300&display=swap");
+
+body {
+  background-color: #fff;
+  font-family: "Comme", sans-serif;
+}
+
+/* heading style here */
+.heading .block-text,
+.heading .inline-text {
+  color: #fff;
+  font-size: 20px;
+  padding: 12px;
+}
+
+/* inline element text style here */
+.heading .inline-text {
+  display: inline-block;
+  background-color: #1b9c85;
+  margin-top: 12px;
+}
+.heading .inline-text:hover {
+  display: block;
+  background-color: #1b9c85;
+}
+.heading .inline-text:hover span {
+  display: none;
+}
+.heading .inline-text:hover:before {
+  content: "Block Level Elements";
+}
+
+/* block element text style here */
+.heading .block-text {
+  background-color: #123429;
+}
+.heading .block-text:hover {
+  display: inline-block;
+  background-color: #123429;
+}
+.heading .block-text:hover span {
+  display: none;
+}
+.heading .block-text:hover:before {
+  content: "Inline Elements";
+}
+
+/* section style here */
+.section {
+  border: 1px solid rgb(233, 233, 233);
+  background-color: #f6f9fd;
+  margin-top: 10px;
+}
+.section header h2 {
+  color: rgb(5, 108, 184);
+  font-size: 20px;
+  padding-left: 15px;
+}
+.section ol li {
+  font-size: 15px;
+  color: #61738e;
+  padding: 5px 15px 0 0;
+  margin: 0px 10px;
+  line-height: 1.5;
+}
+
+/* footer style here */
+footer {
+  text-align: center;
+}
+footer button {
+  border: none;
+  border-radius: 10px;
+  background-color: #28334a;
+  color: #fbde44;
+  padding: 10px 30px;
+  margin: 20px 0;
+  cursor: pointer;
+  letter-spacing: 1px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+footer button:hover {
+  background-color: #fbde44;
+  color: #28334a;
+}

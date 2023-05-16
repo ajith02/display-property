@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Day 11</title>
+    <!-- External css -->
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header class="heading">
+      <span class="inline-text">
+        <!-- to hide element when hover -->
+        <span>Inline Level Elements</span>
+      </span>
+      <h4 class="block-text">
+        <!-- to hide element when hover -->
+        <span>Block Level Elements</span>
+      </h4>
+    </header>
+    <main>
+      <section class="section">
+        <header>
+          <h2>Inline Elements</h2>
+        </header>
+        <ol>
+          <li>Inline element odha default behaviour ena na adhu odha content width mathum tha edhuthukom.</li>
+          <li>So, remaining irukura space next element occupy panikum adhuvum oru inline element ah irunda(it never start in a new line).</li>
+          <li>Adhae matri oru inline element ku height and width apply agadhu reason adhoda content width tha edhuthukom so no use of using height and width property.</li>
+          <li>If you want to use height and width property in inline adhoda display property change pananum.</li>
+          <li>We cannot add margin top and bottom to an inline element.</li>
+        </ol>
+      </section>
+      <section class="section">
+        <header>
+          <h2>Block Level Elements</h2>
+        </header>
+        <ol>
+          <li>Block level elements adhodha parent element odha full width edhuthukum. So, it start on an new line.</li>
+          <li>Block level element ku height and width property apply panalam because it takes full width of the parent element.</li>
+          <li>By default block level element margin top and bottom irukum nambo use pandra block element poruthu margin top and bottom value apply agum.</li>
+        </ol>
+      </section>
+      <section class="section">
+        <header>
+          <h2>Inline Block</h2>
+        </header>
+        <ol>
+          <li>Inline block epo use agum na,oru element inline agavum irukanum adhae samayathula height and width apply aganum na apo inline element odha display property inline block nu change pananum.</li>
+          <li>Inline block nu display panum podu anda element inline ah irukum but block level act ah agum.</li>
+          <li>It never start on a new line.</li>
+        </ol>
+      </section>
+    </main>
+    <footer>
+      <button>
+        <span>Try it</span>
+      </button>
+    </footer>
+  </body>
+</html>
